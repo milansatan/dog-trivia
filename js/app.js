@@ -20,13 +20,13 @@ $(document).ready(function(){
 			correct: 1
 		},
 		{
-			question: "What is the favorite dog breed of the Queen of England",
+			question: "What is the favorite dog breed of the Queen of England?",
 			choices: ["Corgi", "Basenji", "Poodle", "Pomeranian"],
 			qNum: 3,
 			correct: 0
 		},
 		{
-			question: "Which dog breed is the smallest of them all",
+			question: "Which dog breed is the smallest of them all?",
 			choices: ["Dachshund", "Shih tzu", "Pomeranian", "Chihuahua"],
 			qNum: 4,
 			correct: 3
