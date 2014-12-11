@@ -55,7 +55,7 @@ body {
 	width: 1000px;
 }
 
-.question{
+.question, #final{
 	font-size: 1.5em;
 	text-align: center;
 }
@@ -89,3 +89,5 @@ body {
 	margin-left: 150px;
 	margin-top: -100px;
 }
+
+

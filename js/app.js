@@ -66,7 +66,7 @@ $(document).ready(function(){
 			}else if(numberCorrect == 4){
 				$('#dog_image img').attr("src", "images/dog_threequarter.jpg").fadeIn();
 			}else if(numberCorrect == 5){
-				$('#dog_image img').attr("src", "images/dog_seventheight.jpg").fadeIn();
+				$('#dog_image img').attr("src", "images/dog_seventheigth.jpg").fadeIn();
 			}else if(numberCorrect == 6){
 				$('#dog_image img').attr("src", "images/dog_complete.jpg").fadeIn();
 			}
@@ -88,11 +88,11 @@ $(document).ready(function(){
 				$('#submit').css("display", "none");
 				$('#retry_button').css("display", "inline");
 				if(numberCorrect == 1){
-					var congrats = '<span>Congratulations on finishing the quiz. You correctly answered ' + numberCorrect + ' question. </span>';
+					var congrats = '<span id="final">Congratulations on finishing the quiz. You correctly answered ' + numberCorrect + ' question. </span>';
 					$('#answer_choices').css('margin-left', '275px');
 					$('#answer_choices').html(congrats);
 				}else{
-					var congrats = '<span>Congratulations on finishing the quiz. You correctly answered ' + numberCorrect + ' questions.</span>';			
+					var congrats = '<span id="final">Congratulations on finishing the quiz. You correctly answered ' + numberCorrect + ' questions. </span>';
 					$('#answer_choices').css('margin-left', '275px');
 					$('#answer_choices').html(congrats);
 				}
